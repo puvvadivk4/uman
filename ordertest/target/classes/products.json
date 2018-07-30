@@ -1,0 +1,15 @@
+[{
+		"code": "ORANGE",
+		"name": "ORANGE",
+		"price": 1
+	}, {
+		"code": "RICE",
+		"name": "RICE",
+		"price": 2
+	}, {
+		"code": "APPLE",
+		"name": "APPLE",
+		"price": 0.5
+	}
+
+]
