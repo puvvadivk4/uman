@@ -1,0 +1,15 @@
+/* footer{
+    margin-bottom: 1%;
+    margin-top: 30%;
+    
+} */
+footer{
+    background-color: #3399FF;
+    text-align: center;
+    height: 10%;
+    padding-top: 5px;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%
+}

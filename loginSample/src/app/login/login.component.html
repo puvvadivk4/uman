@@ -1,0 +1,95 @@
+
+<p>fweq2ryer2qgvhs</p>
+
+<!-- <div class="conatiner mdq" style="margin-top:50px">
+    <div class="row">
+        <h1>Login Page </h1>
+    </div>
+    <div class="row" >
+       
+        <div class=" col-lg-7">
+            <div class="conatiner-fluid">
+                <form #myFormData="ngForm" (ngSubmit)="registerUser(myFormData.value)" class=".form-horizontal">
+
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="row input-group form-group col-lg-4">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-user"></i>
+                            </span>
+                            <input type="text" class="form-control" name="userName" placeholder="UserName">
+
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="row input-group col-lg-4">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-lock"></i>
+                            </span>
+                            <input type="text" class="form-control" name="password" placeholder="Password">
+
+                        </div>
+                    </div>
+                    <br>
+                    <div class=" row form-group">
+                        <div class="col-lg-1"></div>
+
+                        <input type="submit" (click)="check()" value="Submit">
+
+                        <input type="reset">
+
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+        <div class=" col-lg-1">
+        </div>
+    </div>
+
+</div> -->
+
+
+<div class="conatiner-fluid" > 
+
+    <div>
+        <h1>Log In</h1>
+    </div>
+    <div>
+        New To Wix?
+        <a style="margin-left: 2%">Sign Up</a>
+    </div>
+    <form #myFormData="ngForm" (ngSubmit)="registerUser(myFormData.value)">
+
+        <div>
+            <input type="email" name="email" placeholder="Email" required>
+        </div>
+
+        <div>
+            <input type="password" name="password" placeholder="Password">
+        </div>
+        <div>
+
+            <input  type="checkbox" name="rememberMe" value="Rememeber Me" checked="true"> Rememeber Me
+            <a style="margin-left: 2%">Forgot Password?</a>
+
+        </div>
+        <div>
+                <a routerLink="/main">   <input type="submit" name="Log In" value="Log In"></a>
+        </div>
+        <!-- <pre>
+                *By logging in, you agree to our Terms of Use and to
+receive emails
+            </pre> -->
+
+
+  </form>
+
+  
+</div> 
+<app-root></app-root>
+
